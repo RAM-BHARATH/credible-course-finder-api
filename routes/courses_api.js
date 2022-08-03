@@ -5,7 +5,7 @@ const Course = require('../models/course');
 const async = require('async')
 
 
-router.post('/v1', function(req, res, next) {
+router.get('/v1', function(req, res, next) {
   const course_name=req.query.name || '';
   const page=req.query.page || 1;
   const limitPerPage = 20;
