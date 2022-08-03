@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+let helmet = require('helmet');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -12,6 +13,7 @@ require('dotenv').config();
 
 var app = express();
 
+app.use(helmet());
 const mongo = require('mongodb')
 const mongoose = require('mongoose')
 const MONGODB_URI = process.env.MONGODB_URI
