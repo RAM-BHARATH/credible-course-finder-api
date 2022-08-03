@@ -1,0 +1,21 @@
+{
+    "_id": {
+        "$oid": "62e89ee59776797a50a9fbc0"
+    },
+    "courseId": "coursera-0",
+    "name": "Indigenous Canada",
+    "averageRating": {
+        "$numberDouble": "4.817432337148126"
+    },
+    "userCount": {
+        "$numberInt": "479845"
+    },
+    "offeredBy": [
+        "University of Alberta"
+    ],
+    "courseUrl": "https://coursera.org/learn/indigenous-canada",
+    "platform": "Coursera",
+    "subject": "Arts and Humanities",
+    "language": "English",
+    "free": true
+}
